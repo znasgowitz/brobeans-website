@@ -9,6 +9,9 @@ function App() {
         <p>
           BroBeans LLC
         </p>
+        <p>
+          Est. 2021
+        </p>
       </header>
     </div>
   );
