@@ -2,7 +2,8 @@
 import './App.css';
 //import bean from './bean.pdf';
 
-import firebase from 'firebase'
+import firebase from 'firebase';
+import beanLogo from './beanpng.png';
 
 
 const firebaseConfig = {
@@ -15,7 +16,11 @@ const firebaseConfig = {
   measurementId: "G-TLHBW5ZHQT"
 };
 
-firebase.initializeApp(firebaseConfig);
+// this checks to make sure we are not running a firebase instance at the moment so we can initialize
+if (firebase.apps.length === 0) {
+  // initializes firebase
+  firebase.initializeApp(firebaseConfig);
+}
 
 //export default firebase;
 
@@ -24,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'https://firebasestorage.googleapis.com/v0/b/brobeans-website.appspot.com/o/bean.pdf?alt=media&token=b356d128-4d68-43cc-997c-b99fa3d3dae4'} alt="logo" />
+        <img src={beanLogo} alt="logo" height="150" />
         <p>
           BroBeans LLC
         </p>
