@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //import bean from './bean.pdf';
 
@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={'https://firebasestorage.googleapis.com/v0/b/brobeans-website.appspot.com/o/bean.pdf?alt=media&token=b356d128-4d68-43cc-997c-b99fa3d3dae4'} />
+        <img src={'https://firebasestorage.googleapis.com/v0/b/brobeans-website.appspot.com/o/bean.pdf?alt=media&token=b356d128-4d68-43cc-997c-b99fa3d3dae4'} alt="logo" />
         <p>
           BroBeans LLC
         </p>
