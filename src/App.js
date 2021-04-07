@@ -3,7 +3,7 @@ import './App.css';
 //import bean from './bean.pdf';
 
 import firebase from 'firebase';
-import beanLogo from './beanpng.png';
+//import beanLogo from './beanpng.png';
 
 
 const firebaseConfig = {
