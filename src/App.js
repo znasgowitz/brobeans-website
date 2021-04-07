@@ -29,12 +29,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={beanLogo} alt="logo" height="150" />
+        <img src={beanLogo} alt="logo" height="500" />
         <p>
-          BroBeans LLC
+          
         </p>
         <p>
-          Est. 2021
+          EST. 2021
         </p>
       </header>
     </div>
