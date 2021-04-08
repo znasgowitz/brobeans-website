@@ -30,16 +30,17 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={beanLogo} alt="logo" height="500" />
+        <img src={beanLogo} alt="logo" height="700" />
         <p>
-          
+       
         </p>
         <p>
           EST. 2021
-          
         </p>
-        
+
+        <Button variant="outline-light" onClick={() => alert("bruh")}>Click Me!</Button>{' '}
       </header>
+      
     </div>
   );
 }
