@@ -5,6 +5,7 @@ import './App.css';
 import firebase from 'firebase';
 import beanLogo from './beanpng.png';
 
+import Button from 'react-bootstrap/Button';
 
 const firebaseConfig = {
   apiKey: "AIzaSyA4FNIzGyA8yIxut9EpRkzeLdQCjxk9t4A",
@@ -35,7 +36,9 @@ function App() {
         </p>
         <p>
           EST. 2021
+          
         </p>
+        
       </header>
     </div>
   );
