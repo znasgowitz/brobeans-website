@@ -38,7 +38,7 @@ function App() {
           EST. 2021
         </p>
 
-        <Button variant="outline-light" onClick={() => alert("bruh")}>Click Me!</Button>{' '}
+       
       </header>
       
     </div>
